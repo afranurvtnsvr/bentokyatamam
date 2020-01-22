@@ -1,0 +1,144 @@
+/* HEADER*/
+html,
+body,
+#cover {
+    height:100%;
+    font-family: "Montserrat",sans-serif;
+   
+}
+.image{
+	width:200px !important;
+	height:200px !important;
+}
+.ali{
+	    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.navbar-brand {
+    font-family: " Kaushan Script", cursive !important;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fed136 !important;
+}
+
+#cover{
+    background:url(../img/header/header-giris1.jpg) no-repeat center fixed;
+    height: 750px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#cover2{
+   height: 500px;
+    background: rgba (0,0,0, .1); /*.5 opazite demek*/ 
+}
+.fixed-top{
+    margin-top:0;
+    background:#000;
+    padding-left: 50px;
+    padding-right:50px;
+    width: auto;
+}
+.header-first-title{
+    margin-top: 20%;
+    color:#fff;
+    font-family: "Droid Serif",serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+   
+    
+    
+}
+.header-second-title{
+  margin-top: 10%;
+    color:#fff;
+  
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: :3Opx;
+    
+    
+}
+.header-btn{
+     
+    background-color: #fed136;
+    border-style: none;
+    text-transform: uppercase;
+    font-size:18px;
+    padding: 20px 40px;
+}
+
+.header-btn:hover{
+    
+    background-color: #fff;
+    color:#fed136;
+}
+ a.nav-link {
+   
+    font-size:20px;
+padding: inherit;
+    color:#fff !important;
+    transition: color 0.5s ease;
+    -webkit-  transition: color 0.5s ease;
+    -moz-  transition: color 0.5s ease;
+    -o-  transition: color 0.5s ease;
+}
+.btnkayit{
+    
+    margin-top:50px;
+    
+}
+a.nav-link:hover{
+    color: #fed136 !important;
+}
+
+    /*SERVİCES*/
+    #servives{
+       padding: 110pxpx 50px;
+       
+    }
+
+}
+.services-top h3{
+    font-size: 40px;
+    font-weight: 700px;
+
+    
+}
+.services-top p{
+    font-size: 16px;
+ font-style: italic;
+    margin-bottom:70px;
+    
+}
+.item-circle{
+    border:3px solid #fed136;
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    border-radius: 200px;
+}
+.services-content i{
+    color:#fed136;
+    line-height: 100px; /*ortaaldık*/
+}
+.services-content h4{
+   font-size: 18px;
+    color:#222;
+    font-weight: 700;
+    margin-top: 24px;
+}
+footer.footer {
+            padding-top: 100px;
+            padding-bottom:100px;
+    background-color: #000;
+        }
+
+        li.list-inline-item a {
+            color: #fff;
+            text-decoration: none;
+        }

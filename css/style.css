@@ -1,0 +1,489 @@
+/* HEADER*/
+
+html, body, #cover {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.image {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.logo {
+    border: 2px solid #fed136;
+    border-radius: 100px;
+}
+
+.ali {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.navbar-brand {
+    font-family: " Kaushan Script", cursive !important;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fed136 !important;
+}
+
+.team {
+    margin-top: 100px;
+}
+
+.image {
+    overflow: hidden;
+    background: rgba (0, 0, 0, .5);
+}
+
+.image img {
+    transition: all 1.5s ease;
+}
+
+img.image:hover {
+    transform: scale(1.5);
+}
+
+#cover {
+    background: url(../img/header/header-giris1.jpg) no-repeat center fixed;
+    height: 750px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fixed-top {
+    margin-top: 0;
+    background: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+}
+
+.header-first-title {
+    margin-top: 20%;
+    color: #fff;
+    font-family: "Droid Serif", serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+.header-second-title {
+    margin-top: 10%;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: :3Opx;
+}
+
+.header-btn {
+    background-color: #fed136;
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: #fed136;
+}
+
+a.nav-link {
+    font-size: 20px;
+    padding: inherit;
+    color: #fff !important;
+    transition: color 0.5s ease;
+    -webkit- transition: color 0.5s ease;
+    -moz- transition: color 0.5s ease;
+    -o- transition: color 0.5s ease;
+}
+
+.btnkayit {
+    margin-top: 50px;
+}
+
+a.nav-link:hover {
+    color: #fed136 !important;
+}
+
+/*SERVİCES*/
+
+#servives {
+    padding: 110pxpx 50px;
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    left: unset !important;
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #fed136;
+    color: #000;
+}
+
+}
+
+.services-top h3 {
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.arama {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.custom-ilce {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-ilce select {
+    display: none;
+    /*hide original SELECT element: */
+}
+
+.custom-il {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-il select {
+    display: none;
+    /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: #FED136;
+}
+
+}
+
+/* Style the arrow inside the select element: */
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+
+.select-items div, .select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+/* Style items (options): */
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.services-top p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+
+.hakkinda {
+    margin-top: 80px;
+}
+
+.item-circle {
+    border: 5px solid #fed136;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+.services-content i {
+    color: #fed136;
+    line-height: 100px;
+    /*ortaaldık*/
+}
+
+.services-content h4 {
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+/* ABOUTUS */
+
+#aboutUs {
+    padding-top: 80px;
+}
+
+.aboutUs-content .row {
+    margin-bottom: 90px;
+}
+
+.aboutUs-content h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.aboutUs-content p {
+    font-size: 14px;
+    font-family: "Roboto Slab", Serif;
+    color: #777;
+}
+
+.aboutUs-content .img-circle {
+    border-radius: 176px;
+    border: 7px solid #f1f1f1;
+}
+
+.imgabout {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+/* CONTACT */
+
+.contact {
+    background: url(../img/contact.jpg) no-repeat center fixed;
+    background-color: #000;
+    height: 500px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 120px 0;
+}
+
+.contact-top h3 {
+    color: white;
+    font-weight: 700;
+}
+
+.contact-top p {
+    color: white;
+}
+
+.btngonder {
+    background-color: #fed136;
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.btngonder:hover {
+    background-color: #fff;
+    color: #fed136 !important;
+}
+
+#ad, #email, #kurum, #textarea {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+    font-weight: 600;
+}
+
+#textarea {
+    height: 203px;
+}
+
+/* FOOTER */
+
+footer.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000;
+}
+
+li.list-inline-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* yonlenirme sayfasi */
+
+#yonlendirme {
+    margin-top: 10%;
+    color: black;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: :3Opx;
+}
+
+.mesaj h5 {
+    color: black;
+    font-size: 45px;
+    margin-bottom: 250px;
+}
+
+/* PROFİL CSS */
+
+.emp-profile {
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img {
+    width: 70%;
+    height: 100%;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-head h5 {
+    color: #333;
+}
+
+.profile-head h6 {
+    color: #0062cc;
+}
+
+.profile-edit-btn {
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.proile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+
+.proile-rating span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+    font-weight: 600;
+    border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #0062cc;
+}
+
+.profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+.profile-work p {
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.profile-work a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile-work ul {
+    list-style: none;
+}
+
+.profile-tab label {
+    font-weight: 600;
+}
+
+.profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+}
+
+.profilekrani {
+    margin-top: 200px !important;
+}

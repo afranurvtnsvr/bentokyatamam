@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt OL</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <style>
+        .login-container {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        .login-form-1 {
+            padding: 5%;
+            background: #fff;
+            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+        }
+
+            .login-form-1 h3 {
+                text-align: center;
+                color: #fed135;
+            }
+
+        .login-form-2 {
+            padding: 5%;
+            background: #1fed136;
+            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+        }
+
+            .login-form-2 h3 {
+                text-align: center;
+                color: #fed136;
+            }
+
+        .login-container form {
+            padding: 10%;
+        }
+
+        .btnSubmit {
+            width: 50%;
+            border-radius: 1rem;
+            padding: 1.5%;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-form-1 .btnSubmit {
+            font-weight: 600;
+            color: #fff;
+            background-color: #125896;
+        }
+
+        .login-form-2 .btnSubmit {
+            font-weight: 600;
+            color: #0062cc;
+            background-color: #fff;
+        }
+
+        .login-form-2 .ForgetPwd {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .login-form-1 .ForgetPwd {
+            color: #0062cc;
+            font-weight: 600;
+            text-decoration: none;
+        }
+		.form-group .btnSubmit{
+		background-color:#fed136;
+		color:#fff;
+		}
+		.hesap{
+		color:#000;
+		}
+		.ForgetPwd{
+		color:#000;
+		}
+		
+		
+    </style>
+</head>
+<body style="background-color: #000">
+
+<div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3>Öğrenci Kayıt</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Ad-Soyad" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="TC" value="" />
+                        </div>
+                         <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Telefon No" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Üniversite Adı" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Şifreniz" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input formaction="index.html" type="submit" class="btnSubmit" value="Kayıt Ol"  />
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="ForgetPwd" style="color:#000;">Hesabınız Var mı?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 login-form-2">
+                    <h3 style="color:#fed136;">Lokanta Kayıt</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Ad-Soyad" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="TC" value="" />
+                        </div>
+                         <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Telefon No" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Lokanta Adı" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Şifreniz" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" formaction="index.html" class="btnSubmit" value="Kayıt Ol" />
+                        </div>
+                        <div class="form-group hesap">
+                            <a href="#" class="ForgetPwd">Hesabınız Var mı?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
